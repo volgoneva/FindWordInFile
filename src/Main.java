@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 
 public class Main {
-    static int count = 1;
+    static int count = 0;
     public static void main (String [ ] args) {
         String pathName = JOptionPane.showInputDialog("Укажите полный путь и название файла c расширением");
         String countWord = JOptionPane.showInputDialog("Укажите слово");
